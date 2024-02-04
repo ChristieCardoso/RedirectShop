@@ -4,9 +4,9 @@ import Navbar from "@/components/Navbar";
 import "../../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "RedirecionaShop",
+  title: "Redirect Shop",
   description:
-    "RedirecionaShop oferece redirecionamento para sites de afiliados e descontos exclusivos",
+    "Redirect Shop oferece redirecionamento para sites de afiliados e descontos exclusivos",
 };
 
 export default function RootLayout({
