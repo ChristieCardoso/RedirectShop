@@ -19,7 +19,7 @@ const Navbar = () => {
     },
     {
       title: "Loja",
-      link: "/store",
+      link: "/shop",
     },
     {
       title: "Sobre",
