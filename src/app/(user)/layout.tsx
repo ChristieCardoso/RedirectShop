@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "slick-carousel/slick/slick.css";
 import Navbar from "@/components/Navbar";
 import PageButton from "@/components/PageButton";
+import Footer from "@/components/Footer";
 
 import "../../styles/globals.css";
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <Navbar />
         <PageButton />
         {children}
+        <Footer />
       </body>
     </html>
   );

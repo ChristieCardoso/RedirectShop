@@ -3,8 +3,6 @@ import { RiShoppingCart2Fill } from "react-icons/ri";
 import { MdSwitchAccount } from "react-icons/md";
 import Link from "next/link";
 
-import Image from "next/image";
-
 const PageButton = () => {
   return (
     <div className="fixed top-60 right-2 z-20 flex flex-col gap-2">
@@ -24,7 +22,6 @@ const PageButton = () => {
           <RiShoppingCart2Fill className="text-2xl -translate-x-3 group-hover:translate-x-12 transition-transform duration-200" />
         </div>
         <p className="text-xs font-semibold">Buy Now</p>
-     
       </Link>
     </div>
   );
