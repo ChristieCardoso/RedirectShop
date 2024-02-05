@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import "../../styles/globals.css";
-import Navbar from "@/components/Navbar";
 import "slick-carousel/slick/slick.css";
+import Navbar from "@/components/Navbar";
+import PageButton from "@/components/PageButton";
+
+import "../../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Redirect Shop",
@@ -17,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-display">
         <Navbar />
+        <PageButton />
         {children}
       </body>
     </html>
