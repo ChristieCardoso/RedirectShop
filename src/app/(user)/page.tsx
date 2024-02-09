@@ -32,11 +32,11 @@ const HomePage = async () => {
   return (
     <main className="text-sm overflow-hidden min-h-screen">
       <Banner banners={banners} />
-      <NewArrival products={newArrivalProducts} />
+      <NewArrival products={newArrivalProducts} title="Ofertas"/>
       <HomeBanner />
-      <BestSellers products={bestSellersProducts} title="Our Bestsellers" />
+      <BestSellers products={bestSellersProducts} title="Lançamentos" />
       <YearProduct />
-      <BestSellers products={specialOffersProducts} title="Special Offers" />
+      <BestSellers products={specialOffersProducts} title="Queimão" />
     </main>
   );
 };

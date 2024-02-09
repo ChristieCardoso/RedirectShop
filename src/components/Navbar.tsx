@@ -21,18 +21,6 @@ const Navbar = () => {
       title: "Loja",
       link: "/shop",
     },
-    {
-      title: "Sobre",
-      link: "/about",
-    },
-    {
-      title: "Contato",
-      link: "/contact",
-    },
-    {
-      title: "Studio",
-      link: "/studio",
-    },
   ];
   return (
     <div className="w-full h-20 bg-white border-b-[1px] border-b-gray-400 sticky top-0 z-50">
