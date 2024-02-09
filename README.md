@@ -1,4 +1,4 @@
-# Full Stack E-Commerce Website (Hackathon-1)
+# Full Stack E-Commerce Website
 
 This is a Full satck E-commerce website built for the learning purposes of state-of-the-art Technologies.
 
